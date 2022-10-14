@@ -1,0 +1,37 @@
+<fieldset>
+    <legend>
+        <h1>
+
+        </h1>
+    </legend>
+</fieldset>
+
+<h1>
+    mi pc
+</h1>
+estamos en el puerto : ${port}
+<br>
+<br>
+el nombre de mi pc es : 
+${os.hostname}
+<br>
+<br>
+el procesador de mi pc es :
+${os.cpus()[0].model}
+<br>
+<br>
+la velocidad es :
+${os.cpus()[0].speed}
+<br>
+<br>
+la memoria libre en bytes es : 
+${os.freemem()}
+
+<h1>mi pc</h1>
+<ul>
+    <li>estamos en el puerto : ${port}</li>
+    <li>el nombre de mi pc es : ${os.hostname}</li>
+    <li>el procesador de mi pc es : ${os.cpus()[0].model}</li>
+    <li>la velocidad es : ${os.cpus()[0].speed}</li>
+    <li>la memoria libre en bytes es : ${os.freemem()}</li>
+</ul>
